@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/excel")
+@CrossOrigin(origins = "*")
 public class EtudiantDTOController {
 
     @Autowired
