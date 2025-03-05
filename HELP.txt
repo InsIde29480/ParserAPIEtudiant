@@ -1,0 +1,9 @@
+Install needed :
+sudo apt install update && sudo apt upgrade && sudo apt install docker docker.io openjdk-17-jdk maven
+
+Command that need to be executed before starting docker :
+mvn clean package
+
+Start the docker :
+docker build -t parser_api_etudiant .
+docker run -p 8080:8080 parser_api_etudiant
