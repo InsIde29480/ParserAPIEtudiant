@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # Exposer le port sur lequel l'application fonctionne (modifie selon ton application)
-EXPOSE 8080
+EXPOSE 8082
 
 # Lancer l'application
 CMD ["java", "-jar", "app.jar"]
